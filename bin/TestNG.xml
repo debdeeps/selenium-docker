@@ -1,0 +1,14 @@
+
+<suite name="Test Suite">
+    <test name="Test Name">
+        <classes>
+            <class name="com.duckduckgo.tests.DriverTest"></class>
+            <!--
+            <class name="com.duckduckgo.tests.SearchTest"></class>
+            <class name="com.duckduckgo.tests.SearchResultTest"></class>
+            -->
+        </classes>
+
+
+    </test>
+</suite>

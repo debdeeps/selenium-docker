@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Test Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test Name(failed)">
+    <classes>
+      <class name="com.duckduckgo.tests.DriverTest">
+        <methods>
+          <include name="driverTest"/>
+        </methods>
+      </class> <!-- com.duckduckgo.tests.DriverTest -->
+    </classes>
+  </test> <!-- Test Name(failed) -->
+</suite> <!-- Failed suite [Test Suite] -->

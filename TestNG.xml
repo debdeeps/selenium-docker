@@ -1,0 +1,45 @@
+<!--
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Test Suite">
+    <test name="Test Name">
+        <classes>
+
+            <class name="com.duckduckgo.tests.DriverTest"></class>
+             <class name="com.duckduckgo.tests.SearchResultTest"></class>
+
+            <class name="com.duckduckgo.tests.SearchTest"></class>
+
+
+        </classes>
+
+parallel="tests"
+    </test>
+</suite>
+ -->
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="search-module" >
+    <test name="search-test-java">
+        <parameter name="keyword" value="java"/>
+        <classes>
+            <class name="com.duckduckgo.tests.SearchTest"/>
+        </classes>
+    </test>
+    <test name="search-test-webdriver">
+        <parameter name="keyword" value="webdriver"/>
+        <classes>
+            <class name="com.duckduckgo.tests.SearchTest"/>
+        </classes>
+    </test>
+    <test name="search-test-docker">
+        <parameter name="keyword" value="docker"/>
+        <classes>
+            <class name="com.duckduckgo.tests.SearchTest"/>
+        </classes>
+    </test>
+    <test name="search-test-kubernetes">
+        <parameter name="keyword" value="kubernetes"/>
+        <classes>
+            <class name="com.duckduckgo.tests.SearchTest"/>
+        </classes>
+    </test>
+</suite>
